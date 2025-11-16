@@ -18,6 +18,46 @@ $(() => {
 
 
 
+       const reviewsSliders = [],
+        reviews = document.querySelectorAll('.reviews .swiper')
+    reviews.forEach(function(el, i) {
+        el.classList.add('reviews_s' + i)
+        let options = {
+            loop: true,
+            speed: 500,
+            watchSlidesProgress: true,
+            slideActiveClass: 'active',
+            slideVisibleClass: 'visible',
+            preloadImages: false,
+            lazy: true,
+            breakpoints: {
+                0: {
+                    spaceBetween: 20,
+                    slidesPerView: 1
+                },
+                610: {
+                    spaceBetween: 20,
+                    slidesPerView: 1
+                },
+                768: {
+                    spaceBetween: 20,
+                    slidesPerView: 2
+                },
+                1023: {
+                    spaceBetween: 20,
+                    slidesPerView: 3
+                }
+            },
+            pagination: {
+                el: '.reviews .swiper-pagination',
+                type: 'bullets',
+                clickable: true,
+            },
+        }
+        reviewsSliders.push(new Swiper('.reviews_s' + i, options))
+    })
+
+
 
 
 

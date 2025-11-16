@@ -469,11 +469,11 @@ body.menu_open {
 
 
 .block {
-    padding: 50px 0;
+    padding: 60px 0;
     background: #fff;
 }
 .block2 {
-    padding: 50px 0;
+    padding: 60px 0;
     background: #54874c;
 }
 .first-section_wrap {
@@ -503,7 +503,7 @@ body.menu_open {
     font-size: 38px;
     font-weight: 700;
     line-height: 1.2;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     color: #000;
 }
 .block2 .title {
@@ -581,7 +581,7 @@ body.menu_open {
 }
 .step_item-title {
     text-align: center;
-    font-size: 26px;
+    font-size: 24px;
     line-height: 1.2;
     font-weight: 700;
     margin-bottom: 15px;
@@ -596,6 +596,100 @@ body.menu_open {
 }
 
 
+
+
+
+
+.reviews_item {
+    padding: 25px;
+    background: #F7F6F9;
+    border: 1px solid #E0E0E0;
+    border-radius: 5px;
+}
+.reviews_item-author {
+    margin-bottom: 15px;
+}
+.reviews_item-name {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.1;
+    color: #000;
+}
+.reviews_item-text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.25;
+    color: #000;
+}
+
+.reviews_item-text p + p {
+    margin-top: 20px;
+}
+.swiper-pagination-bullet {
+    display: block;
+    width: 15px;
+    height: 15px;
+    transition: .2s linear;
+    pointer-events: auto;
+    opacity: 1;
+    border: none;
+    border-radius: 50%;
+    background: #D9D9D9;
+}
+.swiper-pagination-bullet-active {
+    background: #2a5823;
+}
+.swiper-pagination-bullet:hover, 
+.swiper-pagination-bullet.active {
+    background: #2a5823;
+}
+.swiper-pagination-bullet + .swiper-pagination-bullet {
+    margin-left: 8px !important;
+}
+.swiper-horizontal > .swiper-pagination-bullets, 
+.swiper-pagination-bullets.swiper-pagination-horizontal, 
+.swiper-pagination-custom, 
+.swiper-pagination-fraction {
+    bottom: -40px;
+}
+.reviews .swiper {
+    margin-bottom: 55px;
+}
+.swiper {
+    overflow: visible !important;
+}
+.swiper-slide.visible {
+    display: flex;
+    visibility: visible;
+    height: auto;
+    pointer-events: auto;
+    opacity: 1;
+    align-items: center;
+    justify-content: center;
+}
+.swiper-slide.active {
+    display: flex;
+    visibility: visible;
+    height: auto;
+    pointer-events: auto;
+    opacity: 1;
+    align-items: center;
+    justify-content: center;
+}
+.swiper-slide {
+    position: relative;
+    display: flex;
+    visibility: hidden;
+    width: auto;
+    transition: opacity .2s linear, visibility .2s linear;
+    pointer-events: none;
+    opacity: 0;
+    align-items: center;
+    justify-content: center;
+}
+.swiper-wrapper {
+    align-items: flex-start;
+}
 
 
 
