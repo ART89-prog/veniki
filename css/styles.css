@@ -831,3 +831,98 @@ footer {
 .footer-contact_phone:hover {
     color: #339922;
 }
+
+
+
+
+.modal_callback {
+    max-width: 480px;
+    width: 100%;
+    display: none;
+}
+.modal_callback form {
+    border: 1px solid #54874c;
+    border-radius: 10px;
+    padding: 30px;  
+}
+.modal_callback .form_title {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 1.2;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+.modal_callback form .line {
+    display: flex;
+    gap: 12px;
+}
+.modal_callback form .line + .line {
+    margin-top: 15px;
+}
+.modal_callback form .line .field {
+    width: 100%;
+}
+.modal_callback form .line .field input {
+    background: #fff;
+    border: 1px solid #54874c;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000;
+    height: 100%;
+    padding: 18px;
+    width: 100%;
+}
+.modal_callback form .line .field textarea {
+    font-family: 'Geometria';
+    background: #fff;
+    border: 1px solid #54874c;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000;
+    height: 95px;
+    padding: 18px; 
+    resize: none;  
+    width: 100%;
+}
+.fancybox__content {
+    padding: 0;
+    border-radius: 10px;    
+    background: #54874c;
+}
+.fancybox__content>.carousel__button.is-close {
+    top: 20px;
+    right: 20px;
+}
+.modal_callback {
+    display: none;
+}
+.fancybox__container {
+    z-index: 9999;
+}
+.modal_callback .btn {
+    text-decoration: none;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 34px;
+    background: #56994C;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-align: center;
+    transition: all .4s;
+    margin-top: 25px;
+    width: 100%;
+    border: 1px solid #56994C;
+    transition: all 0.4s;
+}
+.modal_callback .btn:hover {
+    background: #fff;
+    color: #56994C;
+    border: 1px solid #56994C;
+}

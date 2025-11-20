@@ -70,7 +70,7 @@ $(() => {
         }]);
     })
  
-    
+
     // Fancybox
     Fancybox.defaults.autoFocus = false
     Fancybox.defaults.trapFocus = false
@@ -93,7 +93,7 @@ $(() => {
     if (phoneInputs) {
         phoneInputs.forEach(el => {
             IMask(el, {
-                mask: '+{7} (000) 000-00-00',
+                mask: '+{375} (00) 000-00-00',
                 lazy: true
             })
         })
