@@ -69,17 +69,8 @@ $(() => {
             type: 'inline',
         }]);
     })
-    // Скрол к пунктам меню
-    $(".scroll").on("click", function (e) {
-        e.preventDefault();
-        let id = $(this).attr("href");
-        $("html, body").animate({
-            scrollTop: $(id).offset().top - 40
-        }, {
-            duration: 400,
-            easing: "swing"
-        });
-    });
+ 
+    
     // Fancybox
     Fancybox.defaults.autoFocus = false
     Fancybox.defaults.trapFocus = false
