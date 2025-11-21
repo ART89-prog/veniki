@@ -1,5 +1,12 @@
 @media print, (max-width: 1187px) {
 
+    .first-section_title {
+        font-size: 68px;
+    }
+    .first-section_subtitle {
+        font-size: 38px;
+    }
+
 
 
 

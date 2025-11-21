@@ -1,7 +1,62 @@
 @media (max-width: 479px) {
 
 
- 
+    .header-contact_phone, 
+    .footer-contact_phone {
+        font-size: 16px;
+        margin-right: 8px;
+    }
+    .callback_btn {
+        padding: 15px 10px;
+        font-size: 15px;
+    }
+    .header_logo span, 
+    .footer_logo span {
+        font-size: 17px;
+    }
+    .first-section_box {
+        width: 100%;
+    }
+    .first-section_title {
+        font-size: 32px;
+        margin-bottom: 30px;
+    }
+    .first-section_wrap {
+        padding-top: 205px;
+    }
+    .first-section_subtitle {
+        font-size: 20px;
+    }
+    .modal_callback form {
+        padding: 15px;
+    }
+    .is-compact .fancybox__content>.f-button.is-close-btn {
+        top: -35px;
+        right: 0;
+    }
+    .header {
+        padding: 0 0 40px;
+    }
+    .advantages_item-title, 
+    .step_item-title, 
+    .reviews_item-name {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .title {
+        font-size: 24px;
+        margin-bottom: 22px;
+    }
+    .advantages_item-text, 
+    .card_item-text, 
+    .card_item ul li, 
+    .reviews_item-text, 
+    .step_item-text {
+        font-size: 17px;
+    }
+    .card_item-img {
+        height: 200px;
+    }
 
 
 
